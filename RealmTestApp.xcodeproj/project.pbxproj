@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E58396791B6F35F60040F6D6 /* GoodsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58396781B6F35F60040F6D6 /* GoodsModel.swift */; };
 		E592FD6C1B6F2EA0007407F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592FD6B1B6F2EA0007407F8 /* AppDelegate.swift */; };
 		E592FD6E1B6F2EA0007407F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E592FD6D1B6F2EA0007407F8 /* ViewController.swift */; };
 		E592FD711B6F2EA0007407F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E592FD6F1B6F2EA0007407F8 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		3BC920C8324F0CEA7BD03886 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CCFADA8F7E277A14457F11 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E58396781B6F35F60040F6D6 /* GoodsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsModel.swift; sourceTree = "<group>"; };
 		E592FD661B6F2EA0007407F8 /* RealmTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E592FD6A1B6F2EA0007407F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E592FD6B1B6F2EA0007407F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				E592FD6B1B6F2EA0007407F8 /* AppDelegate.swift */,
 				E592FD6D1B6F2EA0007407F8 /* ViewController.swift */,
+				E58396781B6F35F60040F6D6 /* GoodsModel.swift */,
 				E592FD6F1B6F2EA0007407F8 /* Main.storyboard */,
 				E592FD721B6F2EA0007407F8 /* Images.xcassets */,
 				E592FD741B6F2EA0007407F8 /* LaunchScreen.xib */,
@@ -289,6 +292,7 @@
 			files = (
 				E592FD6E1B6F2EA0007407F8 /* ViewController.swift in Sources */,
 				E592FD6C1B6F2EA0007407F8 /* AppDelegate.swift in Sources */,
+				E58396791B6F35F60040F6D6 /* GoodsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
