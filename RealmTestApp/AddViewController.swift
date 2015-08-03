@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import RealmSwift
 
-class ViewController: UIViewController {
+class AddViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func AddButtonTouchUpInside(sender: UIButton) {
+        let goods = GoodsModel()
+        goods.name = nameTextField.text
+        let realm = Realm()
+        realm.write{
+            realm.add(goods,update:false)
+        }
+        
+    }
+   
 }
 
